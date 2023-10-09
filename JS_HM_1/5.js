@@ -6,17 +6,17 @@
 Результат виводити в консоль.
 */
 
-let a = 1;
+let a = 6;
 let b = 2;
-let c = 3;
+let c = 4;
 
+let avg
 
-
-if (a < b && b > c){
-    console.log(b);
-} else if (b < a && a > c){
-    console.log(a);
-} else if (a < c && c > b){
-    console.log(c);
-}
-
+if ((a > b && a < c) || (a < b && a > c)) {
+        avg = a;
+    } else if ((b > a && b < c) || (b < a && b > c)){
+        avg = b;
+    } else
+        avg = c;
+    
+    console.log(avg)
