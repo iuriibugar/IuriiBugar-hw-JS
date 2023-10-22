@@ -6,3 +6,12 @@ let text = 'Довгий текст з багатьма голосними бу�
 let regSymbols = /[АЕЄИІЇОУЮЯаеєиіїоуюя]/g
 let textWithoutVowels = text.replace(regSymbols, "")
 console.log(textWithoutVowels)
+
+
+fnTextWithoutVowels = (text1) => {
+    let regSymbols = /[АЕЄИІЇОУЮЯаеєиіїоуюя]/g
+    let textWithoutVowels = text1.replace(regSymbols, "")
+    console.log(textWithoutVowels)
+}
+
+fnTextWithoutVowels('Довгий текст з багатьма голосними буквами')

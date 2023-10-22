@@ -12,3 +12,16 @@ if (num < 1000){
 } else {
     console.log(`${num} is ok`);
 }
+
+
+function checkNumberIn (num) {
+    if (num < 1000){
+        console.log(`warning ${num} is not in 1000-1900`);
+    } else if(num > 1900){
+        console.log(`warning ${num} is not in 1000-1900`);
+    } else {
+        console.log(`${num} is ok`);
+    }
+}
+
+checkNumberIn(num);

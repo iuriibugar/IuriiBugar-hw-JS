@@ -21,3 +21,24 @@ if (!(num > 1000)){
 } else {
     console.log(`${num} is ok`);
 }
+
+
+funNumNot = () => {
+    if (num < 1000){
+        console.log(`warning ${num} is not in 1000-1900`);
+    } else if(num > 1900){
+        console.log(`warning ${num} is not in 1000-1900`);
+    } else {
+        console.log(`${num} is ok`);
+    }
+    
+    if (!(num > 1000)){
+        console.log(`warning ${num} is not in 1000-1900`);
+    } else if(!(num < 1901)){
+        console.log(`warning ${num} is not in 1000-1900`);
+    } else {
+        console.log(`${num} is ok`);
+    }
+}
+
+funNumNot (num);

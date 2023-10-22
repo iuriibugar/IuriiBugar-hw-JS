@@ -15,3 +15,18 @@ console.log('непарні числа від 1 до 9')
 for(let i=1; i < myArr.length; i +=2){
     console.log(myArr[i]);
 }
+
+
+funEvenOdd = (myArr) => {
+    console.log('парні числа від 1 до 9:')
+for(let i=0; i < myArr.length; i +=2){
+    console.log(myArr[i]);
+}
+
+console.log('непарні числа від 1 до 9:')
+for(let i=1; i < myArr.length; i +=2){
+    console.log(myArr[i]);
+}
+}
+
+funEvenOdd(myArr);
