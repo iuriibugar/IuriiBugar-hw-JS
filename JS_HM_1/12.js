@@ -26,3 +26,18 @@ for (let i = 0; i < arr.length; i++) {
   }
 
   console.log(product);
+
+
+  const arr1 = [[1, 2], [3, 4], [5, 6, 7]];
+
+  let product1 = 1;
+  fnProductArr = () => {
+    for (let i = 0; i < arr1.length; i++) {
+        for (let j = 0; j < arr1[i].length; j++) {
+                product1 *= arr1[i][j];
+        }
+      }  
+      console.log(product1);
+  }
+
+  fnProductArr(arr)

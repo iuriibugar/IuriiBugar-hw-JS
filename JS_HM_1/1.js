@@ -7,7 +7,7 @@
 (Змінні типу інтеджер містять кількість продуктів в наявності у вигляді вхідних даних)
 */
 
-let hamburger = 4;
+let hamburger = 3;
 let fries =1;
 
 if(hamburger >= 4 && fries >= 1){
@@ -15,3 +15,14 @@ if(hamburger >= 4 && fries >= 1){
 } else{
     console.log('Ми йдемо в інше кафе');
 }
+
+
+function funHamFries (hamburger, fries) {
+    if (hamburger >= 4 && fries >= 1) {
+        console.log('Ми поїли');
+    } else {
+        console.log('Ми йдемо в інше кафе');
+    }
+}
+
+funHamFries(3, 1)

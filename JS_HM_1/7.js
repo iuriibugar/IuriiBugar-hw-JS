@@ -25,3 +25,25 @@ switch (symbol){
         console.log("It's not a symbol: +, -, *, /");
         break;
 }
+
+fnMathOperation = (symbol, a, b) => {
+    switch (symbol){
+        case "+":
+            console.log(a + b);
+            break;
+        case "-":
+            console.log(a - b);
+            break;
+        case "*":
+            console.log(a * b);
+            break;
+        case "/":
+            console.log(a / b);
+            break;
+        default:
+            console.log("It's not a symbol: +, -, *, /");
+            break;
+    }
+}
+
+fnMathOperation(symbol, a, b);

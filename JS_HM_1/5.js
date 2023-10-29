@@ -20,3 +20,18 @@ if ((a > b && a < c) || (a < b && a > c)) {
         avg = c;
     
     console.log(avg)
+
+
+fnAvgFromNumbers = (a, b, c) => {
+    let avg1
+    if ((a > b && a < c) || (a < b && a > c)) {
+        avg1 = a;
+    } else if ((b > a && b < c) || (b < a && b > c)){
+        avg1 = b;
+    } else
+        avg1 = c;
+    
+    console.log(avg1)
+}
+
+fnAvgFromNumbers(a, b, c);
